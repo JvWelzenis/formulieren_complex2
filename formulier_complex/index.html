@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <form name="contact" method="POST" data-netlify="true">
+        <p>
+            <label>Naam: <br><input type="text" name="Name"/></label>
+        </p>
+        <p>
+            <label>Email: <br><input type="email" name="Email"/></label>
+        </p>
+        <p>
+            <label>Tel: <br><input type="tel" name="Tel"/></label>
+        </p>
+        <p>
+            <label>Leeftijd: <br><input type="number" name="Number"/></label>
+        </p>
+        <p>
+            <label>Geboortedatum: <br><input type="date" name="Date"/></label>
+        </p>
+        <p>
+            <label>Gender: <br>
+                                        <input type="radio" name="gender" value="male"> Male<br>
+                                         <input type="radio" name="gender" value="female"> Female<br>
+                                         <input type="radio" name="gender" value="other"> Other.</label>
+        </p>
+        <label>Favoriete Quisine: <br>
+            <input type="checkbox" name="Quisine1" value="Frans"> Frans<br>
+            <input type="checkbox" name="Quisine2" value="Italiaans"> Italiaans<br>
+            <input type="checkbox" name="Quisine3" value="Spaans"> Spaans<br>
+            <input type="checkbox" name="Quisine4" value="Arabisch"> Arabisch<br>
+        </label>
+<p>
+    <label>Favoriete kleur van schort: <input type="color" name="Color"/></label>
+</p>
+<p>
+   <label>Biografie: <br><textarea></textarea></label> 
+</p>
+<p>
+    <label>Upload je laatste recept: <br><input type="file" name="File"/></label>
+</p>
+<p>
+    <label>Recepten website: <br><input type="url" name="Url"/></label>
+</p>
+<p>
+    <label> <input type="reset" name="Reset"/></label>
+</p>
+<p>
+    <label> <input type="submit" name="Submit"/></label>
+</p>
+        </form>
+</body>
+</html>
